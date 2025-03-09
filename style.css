@@ -15,7 +15,11 @@ header {
     color: white;
     padding: 1em 0;
     text-align: center;
+
 }
+header h1 {
+    color:yellow;
+  }
 nav ul {
     list-style-type: none;
     padding: 0;
