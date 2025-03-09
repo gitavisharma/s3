@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hotpink;
+    background-image: url("img.webp");
+    position: center;
+    background-size: cover;
+    background-size: auto;
+    background-repeat: repeat-x;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 1em;
+}
+
+section p{
+    margin: 1em 0;
+    color: black;
+
+src: url('https://www.google.com/search?q=image&oq=image&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABixAxiABDIKCAIQABixAxiABDIKCAMQABixAxiABDIKCAQQABixAxiABDIHCAUQABiABDIGCAYQRRg8MgYIBxBFGDzSAQc5NjdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=gmPO6ub_oOcLkM&vssid=__UnNZ8nnKd-_0-kPz4q2-Aw_40');
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
